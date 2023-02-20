@@ -6,11 +6,11 @@
 	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Eli Loren">
 	</a>
 	
-	<form action="{{ site.url }}/art{{ post.url }}" style="margin-right:10px;">
-              <button type="submit" class="comment" title="Leave a comment"><span uk-icon="icon: commenting"></span></button>
+	<form action="{{ site.url }}/art{{ post.url }}">
+              <button type="submit" class="comment" title="Leave a comment" style="margin-right:10px;"><span uk-icon="icon: commenting"></span></button>
             </form>
 	
-	<a href="{{ site.url }}/art/img/{{ post.img }}" title="Enlarge image" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
+	<a href="{{ site.url }}/art/img/{{ post.img }}" class="link" title="Enlarge image" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
 	     <span uk-icon="icon: plus"></span>
 	</a>
 </div>
