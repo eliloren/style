@@ -6,7 +6,7 @@ layout: none
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <image>
-      <url>{{ site.url }}/blog/rss.png</url>
+      <url>{{ site.url }}/art/sitewideimg.png</url>
       <title>{{ site.title }}</title>
       <link>{{ site.url }}/art</link>
     </image>
