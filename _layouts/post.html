@@ -127,9 +127,7 @@ border-radius: 100%;"><img src="/sitewideimg.png" class="logo"></a>
 	    
       
             <a id="theme-toggle" class="desktop" onclick="modeSwitcher()"></a>
-	    
-	    <div class="backbtn"><a href="/art" class="link">Back to Gallery</a></div>
-	    
+	    	    
      <div uk-lightbox="animation: fade">
      <p style="text-align:center;line-height: 135%;">
 	     <a href="{{ site.url }}/art/img/{{ page.img }}" data-caption="{{ page.title }} | {{ page.date | date: '%B %Y' }} | {{ page.excerpt }}"><img src="{{ site.url }}/art/img/{{ page.img }}" alt="{{ page.title }} by Eli Loren"></a> <br><br>          
@@ -138,7 +136,7 @@ border-radius: 100%;"><img src="/sitewideimg.png" class="logo"></a>
      {{ page.excerpt }}
 	    </p>
 </div>
-	    <div class="backbtn" style="margin-bottom:20px;"><a href="/art" class="link">Back to Gallery</a></div>
+	    <div class="backbtn"><a href="/art" style="margin-bottom:20px;" class="link">Back to Gallery</a></div>
 	    
 	    <div style="clear:both;"></div>
      {% include disqus_comments.html %}
