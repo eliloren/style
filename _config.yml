@@ -1,23 +1,29 @@
 # Site Info
-title:              "eli loren"
-description:        "eli loren"
+title:              "eliloren.com/art"
+description:        "the art of eli loren."
 
 # Author Info
-author_name:        eli loren
+author_name:        eliloren
 username:           eliloren
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /projects/:title # Post permalink
+permalink:          /:title # Post permalink
 timezone:           America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 language:           en-US
-favicon:            https://eliloren.github.io/sitewideimg.png
-logo:               https://eliloren.github.io/sitewideimg.png
+favicon:            https://eliloren.com/art/img/sitewideimg.png
+logo:               https://eliloren.com/art/img/sitewideimg.png
 
 # Pagination Settings
 paginate_path: "/pg-:num/"
 paginate: 5
 
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: eliloren
+    
 # Site Build
 highlighter: rouge
 markdown: kramdown
@@ -44,3 +50,4 @@ defaults:
       type:          "posts"
     values:
       layout:        "post"
+
