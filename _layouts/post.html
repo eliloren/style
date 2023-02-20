@@ -127,7 +127,7 @@ border-radius: 100%;"><img src="/sitewideimg.png" class="logo"></a>
      
      <img src="{{ site.url }}/art/img/{{ page.img }}">            
      {{ page.title }} 
-     {{ page.date }}
+     {{ page.date | date: '%B %Y' }}
      {{ page.excerpt }}
      {% include disqus_comments.html %}
 	    	                                                                      
