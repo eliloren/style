@@ -26,7 +26,7 @@ layout: none
       <description>
         {{ post.excerpt | escape | truncate: '400' }}
       </description>
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <pubDate>{{ post.date | date: '%B %-d, %Y' }}</pubDate>
       <link>{{ site.url }}/art{{ post.url }}</link>
       <guid>{{ site.url }}/art{{ post.url }}</guid>
     </item>
