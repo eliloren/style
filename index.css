@@ -25,7 +25,7 @@ div.links {
    transition: all .3s;
 }
 
-div.links a.link, button {
+div.links a.link, button.comment {
    width: 100%;
    /*padding: 15px;*/
    background-color: var(--white-color);
@@ -46,7 +46,7 @@ div.links a.link, button {
    margin-top:10px;
 }
 
-div.links a.link:hover, div.links a.link:active, button:hover, button:active {
+div.links a.link:hover, div.links a.link:active, button.comment:hover, button.comment:active {
    background-color: var(--accent-color);
    color: var(--white-color);
    transform: translate(4px, 4px);
