@@ -1,0 +1,13 @@
+<div uk-lightbox="animation: slide" class="uk-grid-small uk-child-width-1-5@m uk-text-center" uk-grid="masonry: true">
+	
+
+	{% for post in site.posts %}
+<div class="post {{ post.date | date: '%Y' }}">
+     <a href="{{ site.url }}/art/img/{{ post.img }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
+	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Eli Loren">
+	</a>
+</div>
+
+    {% endfor %}
+	
+</div>
