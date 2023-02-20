@@ -44,7 +44,7 @@ div.links a.link, button {
    font-weight:bold;
 }
 
-div.links a.link:hover, div.links a.link:active, button:active {
+div.links a.link:hover, div.links a.link:active, button:hover, button:active {
    background-color: var(--accent-color);
    color: var(--white-color);
    transform: translate(4px, 4px);
