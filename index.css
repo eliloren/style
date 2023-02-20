@@ -27,7 +27,7 @@ div.links {
 
 div.links a.link {
    width: 100%;
-   padding: 15px;
+   /*padding: 15px;*/
    background-color: var(--white-color);
    float: left;
    text-align: center;
