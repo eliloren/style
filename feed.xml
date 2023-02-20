@@ -12,7 +12,7 @@ layout: none
     </image>
     <title>{{ site.title }}</title>
     <description>{{ site.description }}</description>
-    <link>{{ site.url }}</link>
+    <link>{{ site.url }}/art</link>
     <atom:link href="{{ site.url }}/art/feed.xml" rel="self" type="application/rss+xml" />
     <language>{{ site.language }}</language>
     {% for post in site.posts limit:10 %}
@@ -23,8 +23,8 @@ layout: none
         {{ post.excerpt | escape | truncate: '400' }}
       </description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <link>{{ post.url | prepend: site.url }}</link>
-      <guid>{{ post.url | prepend: site.url }}</guid>
+      <link>{{ site.url }}/art/{{ post.url }}</link>
+      <guid>{{ site.url }}/art/{{ post.url }}</guid>
     </item>
     {% endfor %}
   </channel>
