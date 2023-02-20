@@ -194,10 +194,10 @@ html[data-theme="dark"] {
 	}
 	
 	div.links a.link, button {
-	margin:0 0 20px 0;
+	/*margin:0 0 20px 0;*/
 	}
    div.links, div.links a.link {
-      width: 100%;
+      /*width: 100%;*/
    }
 }
 
