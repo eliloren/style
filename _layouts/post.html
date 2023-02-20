@@ -127,13 +127,15 @@ border-radius: 100%;"><img src="/sitewideimg.png" class="logo"></a>
 	    
       
             <a id="theme-toggle" class="desktop" onclick="modeSwitcher()"></a>
-     
+	    
+     <div uk-lightbox="animation: fade">
      <p style="text-align:center;line-height: 135%;">
-	     <img src="{{ site.url }}/art/img/{{ page.img }}"> <br>           
+	     <a href="{{ site.url }}/art/img/{{ page.img }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}"><img src="{{ site.url }}/art/img/{{ page.img }}"></a> <br><br>          
      {{ page.title }} <br>
      {{ page.date | date: '%B %Y' }} <br>
      {{ page.excerpt }}
 	    </p>
+</div>
 	    <a href="/art" class="link">Back to Gallery</a>
 	    
 	    <div style="clear:both;"></div>
