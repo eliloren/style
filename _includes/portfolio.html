@@ -6,7 +6,9 @@
 	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Eli Loren">
 	</a>
 	
-	<a href="{{ site.url }}/art{{ post.url }}" class="link">Comment</a>
+	<form action="{{ site.url }}/art{{ post.url }}">
+              <button type="submit" class="btn btn-secondary">Comment</button>
+            </form>
 </div>
 
     {% endfor %}
