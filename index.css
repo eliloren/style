@@ -172,6 +172,9 @@ html[data-theme="dark"] {
 }
 
 @media (min-width: 691px) {
+	
+	div.backbtn { width:50%; margin:0 auto; }
+	
 	a.desktop {
 	margin-bottom:32px;
 	}
@@ -182,6 +185,9 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 690px) {
+	
+	div.backbtn { width:100%; }
+	
 	a.desktop {
 	margin-bottom:20px;
 	}
