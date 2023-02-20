@@ -33,7 +33,7 @@ div.links a.link, button.comment {
    text-align: center;
    color: var(--text-color);
    text-decoration: none!important;
-   font-size: 17px !important;
+   font-size: 12px !important;
    /*line-height: 35px !important;*/
    text-transform: uppercase;
    box-sizing: border-box;
