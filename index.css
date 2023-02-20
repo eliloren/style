@@ -43,6 +43,7 @@ div.links a.link, button {
    border: 2px solid var(--text-color);
    font-weight:bold;
    pointer: cursor;
+   margin-top:10px;
 }
 
 div.links a.link:hover, div.links a.link:active, button:hover, button:active {
