@@ -6,6 +6,8 @@
      <a href="{{ site.url }}/art/img/{{ post.img }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
 	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Eli Loren">
 	</a>
+	
+	<a href="{{ site.url }}/art{{ post.url }}" class="link">Comment</a>
 </div>
 
     {% endfor %}
