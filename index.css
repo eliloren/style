@@ -42,6 +42,7 @@ div.links a.link, button {
    box-shadow: var(--black-color) 12px 12px 0px 0px;
    border: 2px solid var(--text-color);
    font-weight:bold;
+   pointer: cursor;
 }
 
 div.links a.link:hover, div.links a.link:active, button:hover, button:active {
