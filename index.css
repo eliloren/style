@@ -26,15 +26,15 @@ div.links {
 }
 
 div.links a.link, button.comment {
-   width: 100%;
-   /*padding: 15px;*/
+   /*width: 100%;*/
+   padding: 10px!important;
    background-color: var(--white-color);
    float: left;
    text-align: center;
    color: var(--text-color);
    text-decoration: none!important;
    font-size: 17px !important;
-   line-height: 35px !important;
+   /*line-height: 35px !important;*/
    text-transform: uppercase;
    box-sizing: border-box;
    transition: all .3s;
