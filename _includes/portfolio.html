@@ -2,8 +2,8 @@
 
 	{% for post in site.posts %}
 <div class="post {{ post.date | date: '%Y' }}">
-     <a href="{{ site.url }}/art/img/{{ post.img }}" data-caption="{{ page.title }} | {{ page.date | date: '%B %Y' }} | {{ page.excerpt }}">
-	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ page.title }} by Eli Loren">
+     <a href="{{ site.url }}/art/img/{{ post.img }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
+	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Eli Loren">
 	</a>
 	
 	<form action="{{ site.url }}/art{{ post.url }}">
