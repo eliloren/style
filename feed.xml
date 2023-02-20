@@ -17,7 +17,11 @@ layout: none
     <language>{{ site.language }}</language>
     {% for post in site.posts limit:10 %}
     <item>
-      <category>{{ post.categories[0] }}</category>
+      <image>
+      <url>{{ site.url }}/art/{{ post.img }}</url>
+      <title>{{ site.title }}</title>
+      <link>{{ site.url }}/art{{ post.url }}</link>
+      </image>
       <title>{{ post.title }}</title>
       <description>
         {{ post.excerpt | escape | truncate: '400' }}
