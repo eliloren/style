@@ -125,10 +125,12 @@ border-radius: 100%;"><img src="/sitewideimg.png" class="logo"></a>
       
             <a id="theme-toggle" class="desktop" onclick="modeSwitcher()"></a>
      
-     <img src="{{ site.url }}/art/img/{{ page.img }}">            
-     {{ page.title }} 
-     {{ page.date | date: '%B %Y' }}
+     <p style="text-align:center;line-height: 135%;letter-spacing: 0.25em;">
+	     <img src="{{ site.url }}/art/img/{{ page.img }}"> <br>           
+     {{ page.title }} <br>
+     {{ page.date | date: '%B %Y' }} <br>
      {{ page.excerpt }}
+	    </p>
      {% include disqus_comments.html %}
 	    	                                                                      
         </div>
