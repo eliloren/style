@@ -124,6 +124,10 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
 	display:none;
 }
 
+#comments {
+padding-top:40px;
+}
+
 html,
 html[data-theme="light"] {
 	--text-color: #000000;
