@@ -45,6 +45,8 @@ div.links a.link, button.comment {
    cursor:pointer;
    margin-top:10px;
    margin-bottom:10px;
+   height:45px;
+   width:45px;
 }
 
 div.links a.link:hover, div.links a.link:active, button.comment:hover, button.comment:active {
