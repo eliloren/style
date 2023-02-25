@@ -2,7 +2,7 @@
 
 	{% for post in site.posts %}
 	
-	{% if post.tags !== 2022 %}
+	{% if post.tags != 2022 %}
 <div class="post {{ post.date | date: '%Y' }} hide">
 	{% else %}
 <div class="post {{ post.date | date: '%Y' }}">
