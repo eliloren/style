@@ -50,34 +50,50 @@
       
       $("a.all").click(function(){
         $("div.post").removeClass("hide");
+	$("a").removeClass("active");
+	$("a.all").addClass("active");
       });
       $("a.2016").click(function(){
         $("div.post:not([2016])").addClass("hide");
+	$("a:not([2016])").removeClass("active");
         $("div.post.2016").removeClass("hide");
+	$("a.2016").addClass("active");
       });
       $("a.2017").click(function(){
         $("div.post:not([2017])").addClass("hide");
+	$("a:not([2017])").removeClass("active");
         $("div.post.2017").removeClass("hide");
+        $("a.2017").addClass("active");
       });
       $("a.2018").click(function(){
         $("div.post:not([2018])").addClass("hide");
+        $("a:not([2018])").removeClass("active");
         $("div.post.2018").removeClass("hide");
+        $("a.2018").addClass("active");
       });
       $("a.2019").click(function(){
         $("div.post:not([2019])").addClass("hide");
+        $("a:not([2019])").removeClass("active");
         $("div.post.2019").removeClass("hide");
+        $("a.2019").addClass("active");
       });
       $("a.2020").click(function(){
         $("div.post:not([2020])").addClass("hide");
+        $("a:not([2020])").removeClass("active");
         $("div.post.2020").removeClass("hide");
+        $("a.2020").addClass("active");
       });
       $("a.2021").click(function(){
         $("div.post:not([2021])").addClass("hide");
+        $("a:not([2021])").removeClass("active");
         $("div.post.2021").removeClass("hide");
+        $("a.2021").addClass("active");
       });
       $("a.2022").click(function(){
         $("div.post:not([2022])").addClass("hide");
+        $("a:not([2022])").removeClass("active");
         $("div.post.2022").removeClass("hide");
+        $("a.2022").addClass("active");
       });
       
     });
