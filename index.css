@@ -133,6 +133,7 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
 
 .active {
      color:var(--accent-color)!important;
+     text-decoration:underline!important;
 }
 
 html,
