@@ -1,8 +1,8 @@
 <div uk-lightbox="animation: slide" class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@s uk-child-width-1-5@m uk-text-center" uk-grid="masonry: true">
 
 	{% for post in site.posts %}
-	
-	{% if post.tags[0] == 2022 %}
+	{% assign year == post.tags[0] %}
+	{% if year == 2022 %}
 <div class="post {{ post.date | date: '%Y' }}"> 
 	{% else %}
 <div class="post hide {{ post.date | date: '%Y' }}">
