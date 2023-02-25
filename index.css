@@ -124,11 +124,15 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
 }
 
 .hidden {
-	display:none;
+     display:none;
 }
 
 #comments {
-padding-top:10px;
+     padding-top:10px;
+}
+
+.active {
+     color:var(--accent-color)!important;
 }
 
 html,
