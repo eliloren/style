@@ -123,8 +123,8 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
     cursor:pointer;
 }
 
-.hidden {
-     display:none;
+.hidden, .hide {
+     display:none!important;
 }
 
 #comments {
