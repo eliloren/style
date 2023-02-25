@@ -2,10 +2,10 @@
 
 	{% for post in site.posts %}
 	
-	{% if post.tags != 2022 %}
-<div class="post hide {{ post.date | date: '%Y' }}"> 
+	{% if post.tags == 2022 %}
+<div class="post {{ post.date | date: '%Y' }}"> 
 	{% else %}
-<div class="post {{ post.date | date: '%Y' }}">
+<div class="post hide {{ post.date | date: '%Y' }}">
 	{% endif %}
      <a href="{{ site.url }}/art/img/{{ post.img }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
 	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Eli Loren">
