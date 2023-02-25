@@ -190,9 +190,17 @@ html[data-theme="dark"] {
 	/*width:45%;*/
 	margin: 10px 0;
 	}
+	
+	#comments, p.description {
+	width:60%;
+	}
 }
 
 @media (max-width: 690px) {
+	
+	#comments, p.description {
+	width:100%;
+	}
 	
 	div.backbtn { width:100%; }
 	
