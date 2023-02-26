@@ -55,6 +55,7 @@ div.links a.link:hover, div.links a.link:active, button.comment:hover, button.co
    transform: translate(4px, 4px);
    box-shadow: var(--black-color) 8px 8px 0px 0px;
    border: 2px solid var(--black-color);
+   text-decoration:none!important;
 }
 
 div.divider {
@@ -115,13 +116,14 @@ a.desktop {
     text-align: center;
     color: var(--text-color)!important;
     font-size: 17px !important;
-    text-decoration:none;
+    text-decoration:none!important;
     transition: all .3s;
 }
 
 a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:focus {
     color: var(--accent-color)!important;
     cursor:pointer;
+    text-decoration:none!important;
 }
 
 .hidden, .hide {
