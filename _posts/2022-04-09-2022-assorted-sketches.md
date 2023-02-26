@@ -4,5 +4,5 @@ title: Assorted Sketches from 2022
 img: 2022-assorted-sketches.jpg
 comments: true
 excerpt: Just assorted sketches from 2022.
-tags: 2022
+year: 2022
 ---
