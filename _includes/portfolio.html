@@ -2,7 +2,7 @@
 
 	{% for post in site.posts %}
 	
-	{% if post.yoc == 2022 %}
+	{% if post.year == 2022 %}
 <div class="post {{ post.date | date: '%Y' }}"> 
 	{% else %}
 <div class="post hide {{ post.date | date: '%Y' }}">
