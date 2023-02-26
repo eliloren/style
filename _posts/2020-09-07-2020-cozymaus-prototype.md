@@ -4,5 +4,5 @@ title: CozyMaus Prototype Portrait
 img: 2020-cozymaus-prototype.png
 comments: true
 excerpt: This is a prototype of the CozyMaus Profile Picture. It is a more realistic depiction of myself, and there are some features that I would like to reincorporate for a future personal character design - namely the dark hair and thick dark eyebrows.
-tags: 2020
+year: 2020
 ---
