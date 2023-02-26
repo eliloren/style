@@ -100,6 +100,10 @@ a {
    transition: all .3s;
 }
 
+p, li, span, a {
+   font-size:16px;
+}
+
 img.logo {
    margin-left: auto;
    margin-right: auto;
@@ -115,7 +119,7 @@ a.desktop {
     display: block;
     text-align: center;
     color: var(--text-color)!important;
-    font-size: 17px !important;
+    /*font-size: 17px !important;*/
     text-decoration:none!important;
     transition: all .3s;
 }
