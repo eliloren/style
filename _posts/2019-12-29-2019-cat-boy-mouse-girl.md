@@ -4,5 +4,5 @@ title: Cat Boy and Mouse Girl Sketch
 img: 2019-cat-boy-mouse-girl.png
 comments: true
 excerpt: "This is a simple digital sketch of me as a mouse and my boyfriend as a cat. :3"
-tags: 2019
+year: 2019
 ---
