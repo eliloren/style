@@ -4,5 +4,5 @@ title: Doe Sketch
 img: 2016-deer-doe-sketch.png
 comments: true
 excerpt: This is a digital sketch of a female black-tailed deer. I used a photo as a reference.
-tags: 2016
+year: 2016
 ---
