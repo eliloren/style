@@ -53,6 +53,10 @@ div.links a.link, button.comment {
    width:46px;
 }
 
+.uk-link, a {
+ text-decoration:none!important;
+}
+
 div.links a.link:hover, div.links a.link:active, button.comment:hover, button.comment:active {
    background-color: var(--accent-color);
    color: var(--white-color);
@@ -210,7 +214,7 @@ html[data-theme="dark"] {
 	}
 }
 
-@media (max-width:770px) {
+@media (max-width:1028px) {
 	div.links {
 	width:100%;
 	}
