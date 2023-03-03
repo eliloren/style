@@ -124,7 +124,7 @@ a.desktop {
     transition: all .3s;
 }
 
-a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:focus {
+a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:focus, a h1:hover, a h1:active, a h1:focus {
     color: var(--accent-color)!important;
     cursor:pointer;
     text-decoration:none!important;
