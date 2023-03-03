@@ -240,9 +240,9 @@ html[data-theme="dark"] {
    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
    h1 {
-      font-size:16px;
+      font-size:18px;
    }
 }
 
