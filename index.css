@@ -208,13 +208,13 @@ html[data-theme="dark"] {
 	}
 }
 
-@media (max-width:1542px) {
+@media (min-width:1542px) {
 	div.links {
 	width:75%;
 	}
 }
 
-@media (max-width:1028px) {
+@media (min-width:1028px) {
 	div.links {
 	width:100%;
 	}
@@ -242,7 +242,7 @@ html[data-theme="dark"] {
 
 @media (max-width: 320px) {
    h1 {
-      font-size:25px;
+      font-size:23px;
    }
 }
 
