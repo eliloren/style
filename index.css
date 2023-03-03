@@ -22,7 +22,7 @@ p, li, span, a {
 
 div.links {
    padding:20px 20px 0 20px;
-   width: 50%;
+   width: 50%!important;
    margin-left: auto;
    margin-right: auto;
    box-sizing: border-box;
@@ -205,18 +205,6 @@ html[data-theme="dark"] {
 	#comments, p.description {
 	width:60%;
 	margin:0 auto;
-	}
-}
-
-@media (min-width:1542px) {
-	div.links {
-	width:75%;
-	}
-}
-
-@media (min-width:1028px) {
-	div.links {
-	width:100%;
 	}
 }
 
