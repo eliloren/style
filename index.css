@@ -147,6 +147,10 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
      text-decoration:none!important;
 }
 
+#reactions__container {
+display:none!important;
+}
+
 html,
 html[data-theme="light"] {
 	--text-color: #000000;
