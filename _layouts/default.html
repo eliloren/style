@@ -55,18 +55,6 @@
 	$("a").removeClass("active");
 	$("a.all").addClass("active");
       });
-      $("a.2016").click(function(){
-        $("div.post:not([2016])").addClass("hide");
-	$("a:not([2016])").removeClass("active");
-        $("div.post.2016").removeClass("hide");
-	$("a.2016").addClass("active");
-      });
-      $("a.2017").click(function(){
-        $("div.post:not([2017])").addClass("hide");
-	$("a:not([2017])").removeClass("active");
-        $("div.post.2017").removeClass("hide");
-        $("a.2017").addClass("active");
-      });
       $("a.2018").click(function(){
         $("div.post:not([2018])").addClass("hide");
         $("a:not([2018])").removeClass("active");
@@ -96,6 +84,12 @@
         $("a:not([2022])").removeClass("active");
         $("div.post.2022").removeClass("hide");
         $("a.2022").addClass("active");
+      });
+      $("a.2023").click(function(){
+        $("div.post:not([2023])").addClass("hide");
+        $("a:not([2023])").removeClass("active");
+        $("div.post.2023").removeClass("hide");
+        $("a.2023").addClass("active");
       });
       
     });
