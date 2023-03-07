@@ -5,7 +5,7 @@
 	
 <div class="post {{ post.date | date: '%Y' }}">
 	
-     <a href="{{ site.url }}/style/img/{{ post.img }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
+     <a href="{{ site.url }}/style/img/{{ post.img }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %-d, %Y' }} | {{ post.excerpt }}">
 	     <img src="{{ site.url }}/style/img/{{ post.img }}" alt="{{ post.title }} by Eli Loren">
 	</a>
 	
